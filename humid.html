@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="">Latitude</a>
+        <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,11 +35,11 @@
 <div class="container">
  <div class="row pt-3">
   <div class="col-sm-7 bg-light text-dark border border-white">
-  <h1 class="bd-title">What's the Weather Like?</h1>
-  <img src="graphics/temp_lat.png" alt="Temperature (F) vs Latitude" class="img-responsive" width="80%" height="auto">
-  <p> This project analyzes how the weather changes at different distances from the equator. A random set of 500 cities were selected, and analyzed using the OpenWeatherMap API.
+  <h1 class="bd-title">Humidity</h1>
+  <img src="graphics/hum_lat.png" alt="Humidity vs Latitude" class="img-responsive" width="100%" height="auto">
+  <p> Humidity seems less correlated to latitude, when compared to Max Temperature. That being said, there are a couple of interesting points to make. One is how there seems to be a larger density of points at 100% humidity within -20 to 10 latitude. It would be good to look at some other variables to see if they correlate to humidity more strongly.
   </p>
-  <p>Python coding was used, specifically the Matplotlib library for graphing.
+  <p> Also, it is interesting that it seems easier to reach 100% humidity rather than 0% humidity. This can be seen from a smaller dot density on the lower third of the graph.
   </p>
   </div>
   <div class="col-sm-5 bg-light text-dark text-center border border-white">
@@ -54,7 +54,7 @@
 	<a href="wind.html"><img src="graphics/wind_lat.png" alt="Wind Speed vs Latitude" height="90" width="134" style="margin: auto"></a>
   </div>
 </div>
-</div>
+</div>   
      <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

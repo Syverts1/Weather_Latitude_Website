@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="">Latitude</a>
+        <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,29 +32,28 @@
 		</ul>
       </div>
   </nav>
-<div class="container">
- <div class="row pt-3">
-  <div class="col-sm-7 bg-light text-dark border border-white">
-  <h1 class="bd-title">What's the Weather Like?</h1>
-  <img src="graphics/temp_lat.png" alt="Temperature (F) vs Latitude" class="img-responsive" width="80%" height="auto">
-  <p> This project analyzes how the weather changes at different distances from the equator. A random set of 500 cities were selected, and analyzed using the OpenWeatherMap API.
-  </p>
-  <p>Python coding was used, specifically the Matplotlib library for graphing.
-  </p>
+ <div class="container p-3">
+	<h1>Comparison: Latitude vs X</h2>
+	<p> Click any plot to get an in-depth analysis</p>
+	<div class="row text-center">
+	<div class="col-sm-6">
+	<h4>&#160;&#160;vs Max Temperature</h4>
+	<a href="maxtemp.html"><img src="graphics/temp_lat.png" alt="Temperature (F) vs Latitude" height="180" width="268" style="margin: auto"></a></div>
+	
+	<div class="col-sm-6">
+	<h4>&#160;&#160;vs Humidity</h4>
+	<a href="humid.html"><img src="graphics/hum_lat.png" alt="Humidity vs Latitude" height="180" width="268" style="margin: auto"></a></div></div>
+	
+	<div class="row pt-3 text-center">
+	<div class="col-sm-6">	
+	<h4>&#160;&#160;vs Cloudiness</h4>
+	<a href="cld.html"><img src="graphics/cloud_lat.png" alt="Cloudiness vs Latitude" height="180" width="268" style="margin: auto"></a></div>
+	
+	<div class="col-sm-6">
+	<h4>&#160;&#160;vs Wind Speed</h4>
+	<a href="wind.html"><img src="graphics/wind_lat.png" alt="Wind Speed vs Latitude" height="180" width="268" style="margin: auto"></a></div>
   </div>
-  <div class="col-sm-5 bg-light text-dark text-center border border-white">
-	<h2 style="text-align:center">Visualizations</h2>
-	
-	<a href="maxtemp.html"><img src="graphics/temp_lat.png" alt="Temperature (F) vs Latitude" height="90" width="134" style="margin: auto"></a>
-
-	<a href="humid.html"><img src="graphics/hum_lat.png" alt="Humidity vs Latitude" height="90" width="134" style="margin: auto"></a>
-	
-	<a href="cld.html"><img src="graphics/cloud_lat.png" alt="Cloudiness vs Latitude" height="90" width="134" style="margin: auto"></a>
-	
-	<a href="wind.html"><img src="graphics/wind_lat.png" alt="Wind Speed vs Latitude" height="90" width="134" style="margin: auto"></a>
   </div>
-</div>
-</div>
      <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="">Latitude</a>
+        <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,11 +35,9 @@
 <div class="container">
  <div class="row pt-3">
   <div class="col-sm-7 bg-light text-dark border border-white">
-  <h1 class="bd-title">What's the Weather Like?</h1>
-  <img src="graphics/temp_lat.png" alt="Temperature (F) vs Latitude" class="img-responsive" width="80%" height="auto">
-  <p> This project analyzes how the weather changes at different distances from the equator. A random set of 500 cities were selected, and analyzed using the OpenWeatherMap API.
-  </p>
-  <p>Python coding was used, specifically the Matplotlib library for graphing.
+  <h1 class="bd-title">Wind Speed</h1>
+  <img src="graphics/wind_lat.png" alt="Wind Speed vs Latitude" class="img-responsive" width="100%" height="auto">
+  <p>From the graph, there does seem to be a dip in wind speed around 0 latitude. Since the correlation doesn't seem to be as pronounced as the Max Temperature, it may be valuable to look and see if there are other variables that more strongly effect wind speed.
   </p>
   </div>
   <div class="col-sm-5 bg-light text-dark text-center border border-white">
@@ -54,7 +52,7 @@
 	<a href="wind.html"><img src="graphics/wind_lat.png" alt="Wind Speed vs Latitude" height="90" width="134" style="margin: auto"></a>
   </div>
 </div>
-</div>
+</div>  
      <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
